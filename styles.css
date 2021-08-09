@@ -195,3 +195,13 @@ footer {
 .social-icons i:hover {
   color: #f6f7f9;
 }
+
+#loading-div {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  background-image: url("./images/loading.gif");
+  background-position: center;
+  background-size: cover;
+  display: none;
+}
