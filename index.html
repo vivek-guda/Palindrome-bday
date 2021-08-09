@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Is your Bday Palindrome?</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <div id="header">
+          <a href="https://vivek-reddy.netlify.app/" target="_blank"> VR </a>
+          <a href="" target="_blank"> Github Repo </a>
+        </div>
+        <div id="head-content">
+          <div id="headings">
+            <h1>
+              Check out if your <span>Birthday</span> is <span>Palindrome</span>
+            </h1>
+            <p>
+              A palindrome is a word/number which reads the same backward as
+              forward
+            </p>
+            <a href="#body"><button>Let's Go</button></a>
+          </div>
+          <img id="head-img" src="./images/calendar.jpg" alt="" />
+        </div>
+      </div>
+      <div id="body">
+        <h1>
+          Enter your birthdate and we will tell you if your birthdate is a
+          palindrome
+        </h1>
+        <p id="body-desc">
+          This app checks your birthdate in 6 formats dd-mm-yyyy, mm-dd-yyyy,
+          yyyy-mm-dd, dd-mm-yy, mm-dd-yy, yy-mm-dd.
+        </p>
+        <input type="date" id="bday-input" />
+        <button id="check-btn">Check</button>
+        <p id="output"></p>
+      </div>
+    </div>
+    <footer>
+      <div id="footer-cont">
+        <a
+          class="social-icons"
+          href="https://www.linkedin.com/in/vivek-reddy-g/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+        <a class="social-icons" href="mailto:vivekreddy1000@gmail.com">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+        <a
+          class="social-icons"
+          href="https://twitter.com/GVivek_51"
+          target="_blank"
+        >
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a
+          class="social-icons"
+          href="https://github.com/vivek-guda"
+          target="_blank"
+        >
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
